@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Giff"
         tools:targetApi="31">
         <activity
+            android:name=".TweenAnim"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
